@@ -10,5 +10,5 @@ spacy_pipeline_map = {
     'it':"it_core_news_lg",
     'es':"es_dep_news_trf"
 }
-unitary_rules = ['power_network','water_network']
+unitary_rules = list(set(infrastructure_category) - {"residential","area","emission"})
 # to detect a true number that refers to an impact, rules which name is in the list impact_category will be used

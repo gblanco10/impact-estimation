@@ -48,7 +48,6 @@ strings:
     $word1 = /desaparecid[ao][s]?/ fullword
     $word2 = /desaparec(e|en|ía|ían|ió|ieron)/ fullword
     $word3 = /perdid[ao][s]?/ fullword
-    $word4 = /pierde(n)?/ fullword
     $word5 = /perd(ía|ían|ió|ieron)/ fullword
 
 condition:
@@ -98,7 +97,6 @@ meta:
 strings:
     $word1 = /infectad[ao][s]?/ fullword
     $word2 = /infect(a|an|aba|aban|ó|aron)/ fullword
-    $word3 = /afectad[ao][s]?/ fullword
     $word4 = /envenenad[ao][s]?/ fullword
     $word5 = /envenen(a|an|aba|aban|ó|aron)/ fullword
 
@@ -134,8 +132,8 @@ strings:
     $word2 = /recuper(a|an|aba|aban|ó|aron)/ fullword
     $word3 = /salvad[ao][s]?/ fullword
     $word4 = /salv(a|an|aba|aban|ó|aron)/ fullword
-    $word5 = /ayudad[ao][s]?/ fullword
-    $word6 = /ayud(a|an|aba|aban|ó|aron)/ fullword
+    $word5 = /recobrad[ao][s]?/ fullword
+
 
 condition:
 	1 of them
